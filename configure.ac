@@ -1,7 +1,7 @@
 # Initialize AC: ACINIT( package_name, version, bug_report_address)
 AC_INIT([my_program], [0.1])
 # Initialize Automake
-AM_INIT_AUTOMAKE
+AM_INIT_AUTOMAKE([-Wall -Werror -foreign])
 # AM stands for Automake commands, AC stands for Autoconf commands
 # We use libraries
 AC_PROG_RANLIB
