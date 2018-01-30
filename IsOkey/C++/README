@@ -1,0 +1,26 @@
+[Project Name ] - Project
+
+
+#################################
+#          OVERVIEW             #
+#################################
+
+[Description]
+
+
+#################################
+#    IMPLEMENTATION NOTES       #
+#################################
+
+  [Implementation]
+
+Running :
+    ./my-bittorrent ./my_torrent.torrent
+    ./my-bittorrent [options] [files]
+
+
+  To run
+    - autoreconf -vi
+    - automake --add-missing
+    - ./configure
+    - make
